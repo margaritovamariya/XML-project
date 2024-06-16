@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE gym SYSTEM "fitness.dtd">
+
+<gym>
+  <hall open="да" group_training_allowed="да">
+    <id>5</id>
+    <name>Зала без Климатик</name>
+    <male_allowed>да</male_allowed>
+    <female_allowed>да</female_allowed>
+    <has_wc>да</has_wc>
+    <has_ac>не</has_ac>
+    <number_of_equipments>12</number_of_equipments>
+    <equipment type="тежести">
+      <name>Кетълбел</name>
+      <min_kg>5</min_kg>
+      <max_kg>20</max_kg>
+      <current_kg>12</current_kg>
+    </equipment>
+    <training type="цяло_тяло">
+      <length>60</length>
+      <is_group>не</is_group>
+      <calories_burnt>350</calories_burnt>
+      <pace>средно</pace>
+      <number_of_breaks>2</number_of_breaks>
+      <break_length>5</break_length>
+    </training>
+  </hall>
+</gym>

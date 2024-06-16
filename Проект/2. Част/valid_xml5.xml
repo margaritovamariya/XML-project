@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE gym SYSTEM "fitness.dtd">
+
+<gym>
+  <hall open="да" group_training_allowed="не">
+    <id>4</id>
+    <name>Зона за Тежка Атлетика</name>
+    <male_allowed>да</male_allowed>
+    <female_allowed>не</female_allowed>
+    <has_wc>да</has_wc>
+    <has_ac>не</has_ac>
+    <number_of_equipments>8</number_of_equipments>
+    <equipment type="тежести">
+      <name>Пауър Рак</name>
+      <min_kg>20</min_kg>
+      <max_kg>200</max_kg>
+      <current_kg>50</current_kg>
+    </equipment>
+    <training type="горна_част">
+      <length>90</length>
+      <is_group>не</is_group>
+      <calories_burnt>600</calories_burnt>
+      <pace>бавно</pace>
+      <number_of_breaks>2</number_of_breaks>
+      <break_length>8</break_length>
+    </training>
+  </hall>
+</gym>

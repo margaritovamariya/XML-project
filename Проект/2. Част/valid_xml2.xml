@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE gym SYSTEM "fitness.dtd">
+
+<gym>
+  <hall open="да" group_training_allowed="да">
+    <id>2</id>
+    <name>Зала за Кардио</name>
+    <male_allowed>да</male_allowed>
+    <female_allowed>да</female_allowed>
+    <has_wc>да</has_wc>
+    <has_ac>да</has_ac>
+    <number_of_equipments>20</number_of_equipments>
+    <equipment type="машина" machine_type="бутаща">
+      <name>Лентов Тротоар</name>
+      <min_kg>5</min_kg>
+      <max_kg>15</max_kg>
+      <current_kg>10</current_kg>
+    </equipment>
+    <training type="кардио">
+      <length>45</length>
+      <is_group>не</is_group>
+      <calories_burnt>400</calories_burnt>
+      <pace>висок</pace>
+      <number_of_breaks>1</number_of_breaks>
+      <break_length>3</break_length>
+    </training>
+  </hall>
+</gym>

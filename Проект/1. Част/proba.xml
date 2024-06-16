@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE gym SYSTEM "fitness.dtd">
+
+<gym>
+	<hall open="да" group_training_allowed="да">
+		<id>1</id>
+		<name>Главна зала</name>
+		<note>Просторна зала с естествена светлина</note>
+		<male_allowed>да</male_allowed>
+		<female_allowed>да</female_allowed>
+		<has_wc>да</has_wc>
+		<has_ac>да</has_ac>
+		<number_of_equipments>10</number_of_equipments>
+		<equipment type="тежести">
+			<name>Дъмбели</name>
+			<min_kg>5</min_kg>
+			<max_kg>50</max_kg>
+			<current_kg>10</current_kg>
+		</equipment>
+		<training type="цяло_тяло">
+			<length>60</length>
+			<is_group>не</is_group>
+			<calories_burnt>300</calories_burnt>
+			<pace>средно</pace>
+			<number_of_breaks>2</number_of_breaks>
+			<break_length>5</break_length>
+		</training>
+	</hall>
+</gym>

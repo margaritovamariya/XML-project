@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT gym (hall*)>
+<!ELEMENT hall (id, name, note?, male_allowed, female_allowed, has_wc, has_ac, number_of_equipments, equipment*, training)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT male_allowed (#PCDATA)>
+<!ELEMENT female_allowed (#PCDATA)>
+<!ELEMENT has_wc (#PCDATA)>
+<!ELEMENT has_ac (#PCDATA)>
+<!ELEMENT number_of_equipments (#PCDATA)>
+<!ELEMENT equipment (name, min_kg, max_kg, current_kg)>
+<!ELEMENT min_kg (#PCDATA)>
+<!ELEMENT max_kg (#PCDATA)>
+<!ELEMENT current_kg (#PCDATA)>
+<!ELEMENT training (length, is_group, number_of_people?, calories_burnt, pace, number_of_breaks, break_length)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT is_group (#PCDATA)>
+<!ELEMENT number_of_people (#PCDATA)>
+<!ELEMENT calories_burnt (#PCDATA)>
+<!ELEMENT pace (#PCDATA)>
+<!ELEMENT number_of_breaks (#PCDATA)>
+<!ELEMENT break_length (#PCDATA)>
+
+<!ATTLIST hall open (да | не) "да">
+<!ATTLIST hall group_training_allowed (да | не) "да">
+<!ATTLIST equipment type (машина | тежести) "тежести">
+<!ATTLIST equipment machine_type (бутаща | дърпаща) "бутаща">
+<!ATTLIST training type (долна_част | горна_част | кардио | цяло_тяло | корем) #REQUIRED>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE gym SYSTEM "fitness.dtd">
+
+<gym>
+  <hall open="да" group_training_allowed="да">
+    <id>3</id>
+    <name>Зала за Групови Уроци</name>
+    <note>Резервирана за групови занимания</note>
+    <male_allowed>да</male_allowed>
+    <female_allowed>да</female_allowed>
+    <has_wc>да</has_wc>
+    <has_ac>да</has_ac>
+    <number_of_equipments>15</number_of_equipments>
+    <equipment type="тежести">
+      <name>Штанга</name>
+      <min_kg>10</min_kg>
+      <max_kg>50</max_kg>
+      <current_kg>20</current_kg>
+    </equipment>
+    <training type="цяло_тяло">
+      <length>75</length>
+      <is_group>да</is_group>
+      <number_of_people>15</number_of_people>
+      <calories_burnt>500</calories_burnt>
+      <pace>средно</pace>
+      <number_of_breaks>3</number_of_breaks>
+      <break_length>7</break_length>
+    </training>
+  </hall>
+</gym>

@@ -1,0 +1,7 @@
+<gym>
+    <hall>
+       <name>Пауър Рак</name>
+       <min_kg>20</min_kg>
+       <max_kg>200</max_kg>
+    </hall>
+ </gym>
